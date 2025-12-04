@@ -24,11 +24,11 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Instala dependencias de Laravel
 RUN composer install --optimize-autoloader --no-dev
 
-# Asegura que las carpetas necesarias existen
+# 🔧 Crea carpetas necesarias para Laravel (por si Git no las subió)
 RUN mkdir -p /var/www/html/storage/framework/{sessions,views,cache} \
     && mkdir -p /var/www/html/storage/logs
 
-# Da permisos a las carpetas necesarias
+# 🔧 Da permisos correctos a Laravel
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Habilita mod_rewrite para Laravel
