@@ -24,13 +24,17 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Instala dependencias de Laravel
 RUN composer install --optimize-autoloader --no-dev
 
+# Asegura que las carpetas necesarias existen
+RUN mkdir -p /var/www/html/storage/framework/{sessions,views,cache} \
+    && mkdir -p /var/www/html/storage/logs
+
 # Da permisos a las carpetas necesarias
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Habilita mod_rewrite para Laravel
 RUN a2enmod rewrite
 
-# 🔥 Mueve esta línea al final para que no se sobrescriba
+# Cambia el DocumentRoot de Apache a la carpeta public/
 RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
 
 # Expone el puerto 80
