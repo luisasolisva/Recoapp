@@ -1245,3 +1245,4 @@
 [2025-12-02 19:01:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
 [2025-12-02 19:01:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
 [2025-12-02 19:01:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-04 14:32:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
