@@ -1,0 +1,1247 @@
+[2025-11-10 09:59:02] local.ERROR: The /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/bootstrap/cache directory must be present and writable. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2025-11-10 09:59:32] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:00:57] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:03:37] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:11:51] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:15:16] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:17:21] local.ERROR: Target class [files] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [files] does not exist. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#15 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#22 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"files\" does not exist at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:959)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\\Foundation\\Application->make()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1325): Illuminate\\Container\\Container->offsetGet()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2025-11-10 10:18:55] local.ERROR: Call to undefined method Illuminate\Support\Facades\File::exists() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\Facades\\File::exists() at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1325)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(68): Illuminate\\Foundation\\Application->routesAreCached()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/sanctum/src/SanctumServiceProvider.php(56): Laravel\\Sanctum\\SanctumServiceProvider->defineRoutes()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1151): Illuminate\\Container\\Container->call()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1132): Illuminate\\Foundation\\Application->bootProvider()
+#9 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1131): array_walk()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
+[2025-11-10 10:21:56] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:21:56] local.ERROR: There are no commands defined in the "package" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"package\" namespace. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php:674)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(723): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2025-11-10 10:22:16] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:22:16] local.ERROR: There are no commands defined in the "key" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key\" namespace. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php:674)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(723): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2025-11-10 10:23:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:23:52] local.ERROR: There are no commands defined in the "package" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"package\" namespace. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php:674)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(723): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2025-11-10 10:23:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:23:52] local.ERROR: There are no commands defined in the "key" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key\" namespace. at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php:674)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(723): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2025-11-10 10:33:39] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:33:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:34:53] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:34:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 10:34:59] local.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select exists (select 1 from information_schema.tables where table_schema = 'buenaventura' and table_name = 'migrations' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED')) as `exists`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select exists (select 1 from information_schema.tables where table_schema = 'buenaventura' and table_name = 'migrations' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED')) as `exists`) at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(979): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(958): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(781): Illuminate\\Database\\Connection->handleQueryException()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(398): Illuminate\\Database\\Connection->run()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(344): Illuminate\\Database\\Connection->select()
+#5 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(361): Illuminate\\Database\\Connection->selectOne()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(45): Illuminate\\Database\\Connection->scalar()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(184): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(742): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(165): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(165): retry()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(141): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(111): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(658): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(89): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call()
+#23 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#24 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#25 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#26 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#27 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#28 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#29 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#30 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
+[stacktrace]
+#0 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct()
+#1 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(85): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(48): Illuminate\\Database\\Connectors\\Connector->tryAgainIfCausedByLostConnection()
+#3 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#4 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(185): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#5 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#6 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1231): call_user_func()
+#7 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1267): Illuminate\\Database\\Connection->getPdo()
+#8 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(512): Illuminate\\Database\\Connection->getReadPdo()
+#9 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(407): Illuminate\\Database\\Connection->getPdoForSelect()
+#10 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(812): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#11 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(979): Illuminate\\Database\\Connection->runQueryCallback()
+#12 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(958): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection()
+#13 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(781): Illuminate\\Database\\Connection->handleQueryException()
+#14 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(398): Illuminate\\Database\\Connection->run()
+#15 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(344): Illuminate\\Database\\Connection->select()
+#16 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(361): Illuminate\\Database\\Connection->selectOne()
+#17 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(45): Illuminate\\Database\\Connection->scalar()
+#18 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(184): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#19 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(742): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#20 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(165): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#21 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#22 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(165): retry()
+#23 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(141): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#24 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(111): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#25 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(658): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#26 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#27 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(89): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#28 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#29 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#30 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#31 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#32 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call()
+#33 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call()
+#34 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#35 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#36 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#37 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#38 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#39 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#40 /home/jeffpc/Documentos/Proyecto Luisa/proyecto-buenaventura/backend-laravel/artisan(17): Illuminate\\Foundation\\Console\\Kernel->handle()
+#41 {main}
+"} 
+[2025-11-10 11:01:37] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 11:02:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 12:08:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-10 12:08:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-11 17:33:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:37:48] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:39:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:39:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:41:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:42:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:43:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:45:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:45:58] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:50:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:50:46] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:50:49] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:51:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 19:52:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-11-25 20:55:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 19:14:37] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 19:52:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 19:54:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:00:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:01:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:02:06] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:03:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:03:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:13:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:18:48] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-01 20:18:49] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:02:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:08] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:09] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:07:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:11:19] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:11:19] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:12:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:12:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:16:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:16:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:16:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:16:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:22:06] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:26:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:26:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:27:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:27:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:27:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:27:49] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:27:49] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:32:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:33:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:33:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:33:57] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:33:58] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:41:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:41:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:45:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 10:45:16] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:49:06] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:52:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:52:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:52:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:52:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:53:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:53:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:56:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:56:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:56:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:56:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:59:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:59:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:59:53] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 16:59:53] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:04:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:05:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:05:08] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:08:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:08:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:12:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:13:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:23:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:23:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:23:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:23:56] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:24:18] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:24:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:24:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:27:57] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:09] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:28:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:31:19] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:31:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:31:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:31:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:31:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:33:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:34:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:36:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:35] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:39:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:40:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:40:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:40:31] local.ERROR: Rate limiter [api] is not defined. {"exception":"[object] (Illuminate\\Routing\\Exceptions\\MissingRateLimiterException(code: 0): Rate limiter [api] is not defined. at C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\MissingRateLimiterException.php:17)
+[stacktrace]
+#0 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(198): Illuminate\\Routing\\Exceptions\\MissingRateLimiterException::forLimiter('api')
+#1 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(98): Illuminate\\Routing\\Middleware\\ThrottleRequests->resolveMaxAttempts(Object(Illuminate\\Http\\Request), 'api')
+#2 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#3 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#4 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#5 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#7 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\public\\index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\fernanda\\Desktop\\Proyecto\\Proyecto Luisa\\proyecto-buenaventura\\backend-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\Users\\\\fernan...')
+#15 {main}
+"} 
+[2025-12-02 17:47:18] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:47:32] local.INFO: Path recibido: vehiculos  
+[2025-12-02 17:47:32] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 17:49:37] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:49:37] local.INFO: Path recibido: vehiculos  
+[2025-12-02 17:49:37] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 17:49:39] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:49:39] local.INFO: Path recibido: vehiculos  
+[2025-12-02 17:49:39] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 17:55:09] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:56:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:56:01] local.INFO: Path recibido: vehiculos  
+[2025-12-02 17:56:01] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 17:56:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 17:56:04] local.INFO: Path recibido: vehiculos  
+[2025-12-02 17:56:04] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:06:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:06:22] local.INFO: Path recibido: vehiculos  
+[2025-12-02 18:06:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:06:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:06:25] local.INFO: Path recibido: vehiculos  
+[2025-12-02 18:06:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:11:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:11:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:11:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:12:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:12:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:12:22] local.INFO: Path recibido: vehiculos  
+[2025-12-02 18:12:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:12:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:12:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:12:24] local.INFO: Path recibido: rutas  
+[2025-12-02 18:12:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/rutas  
+[2025-12-02 18:13:05] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:06] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:06] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:06] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:07] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:07] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:07] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:08] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:13] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:13] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:15] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:16] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:16] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:16] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:16] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:18] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:18] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:18] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:18] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:19] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:19] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:20] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:20] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:20] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:25] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:26] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:27] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:27] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:28] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:38] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:38] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:38] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:38] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:39] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:13:39] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:13:40] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:13:40] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:13:41] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar | Status: 422 | Body: {"message":"The ruta id field is required. (and 2 more errors)","errors":{"ruta_id":["The ruta id field is required."],"vehiculo_id":["The vehiculo id field is required."],"perfil_id":["The perfil id field is required."]}}  
+[2025-12-02 18:16:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:34] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:16:34] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:16:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:45] local.INFO: Path recibido: vehiculos  
+[2025-12-02 18:16:45] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:16:47] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:48] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:16:48] local.INFO: Path recibido: rutas  
+[2025-12-02 18:16:48] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/rutas  
+[2025-12-02 18:40:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:22] local.INFO: Path recibido: vehiculos  
+[2025-12-02 18:43:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-02 18:43:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:23] local.INFO: Path recibido: rutas  
+[2025-12-02 18:43:23] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/rutas  
+[2025-12-02 18:43:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:28] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:43:28] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:43:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:29] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:43:29] local.INFO: Path recibido: recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/posiciones  
+[2025-12-02 18:43:29] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/posiciones  
+[2025-12-02 18:44:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:00] local.INFO: Path recibido: recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/posiciones  
+[2025-12-02 18:44:00] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/posiciones  
+[2025-12-02 18:44:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:03] local.INFO: Path recibido: recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/finalizar  
+[2025-12-02 18:44:03] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/finalizar  
+[2025-12-02 18:44:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:04] local.INFO: Path recibido: recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/finalizar  
+[2025-12-02 18:44:04] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae173-1d7f-7331-a1fd-e8c65fb6ba6f/finalizar  
+[2025-12-02 18:44:38] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:38] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:38] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:44:38] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:44:44] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:44] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:44] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:44:44] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:44:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:45] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-02 18:44:45] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-02 18:44:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:50] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:44:50] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:44:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:51] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:44:51] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:44:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:44:52] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:44:52] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:00] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:00] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:02] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:02] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:10] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:10] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:12] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:12] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:12] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:12] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:20] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:20] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:22] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:23] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:23] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:30] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:30] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:32] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:32] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:32] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:32] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:40] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:40] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:41] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:41] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:42] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:42] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:50] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:45:50] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:45:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:51] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:51] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:45:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:45:52] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:45:52] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:46:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:00] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:46:00] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:46:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:01] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:46:01] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:46:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:02] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:46:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:46:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:46:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:46:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:46:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:46:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:46:27] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:46:27] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:47:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:47:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:47:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:47:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:47:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:47:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:47:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:48:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:48:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:48:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:48:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:48:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:48:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:48:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:49:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:49:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:49:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:49:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:49:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:49:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:49:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:50:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:50:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:50:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:25] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:50:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:50:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:50:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:50:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:35] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:35] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:51:35] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:51:36] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:36] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:36] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:36] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:36] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:37] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:37] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:37] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:40] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:51:40] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:51:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:42] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:42] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:42] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:42] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:50] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:51:50] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:51:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:52] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:52] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:51:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:51:52] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:51:52] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:00] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:52:00] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:52:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:02] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:02] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:10] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:52:10] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:52:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:12] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:12] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:12] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:12] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:20] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:52:20] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:52:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:22] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:22] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:30] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:52:30] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:52:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:31] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:31] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:52:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:52:32] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:52:32] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:53:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:53:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:53:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:53:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:53:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:53:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:53:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:25] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:54:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:54:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:27] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:27] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:27] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:43] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:54:43] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:54:44] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:45] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:45] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:45] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:46] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:46] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:46] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:51] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:54:51] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:54:54] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:56] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:57] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:57] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:57] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:54:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:54:59] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:54:59] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:01] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:01] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:03] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:04] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:04] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:05] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:05] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:05] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:11] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:11] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:13] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:13] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:14] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:14] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:20] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:21] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:21] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:22] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:22] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:22] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:23] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:23] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:23] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:31] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:31] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:34] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:34] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:35] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:35] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:35] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:40] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:40] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:43] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:43] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:43] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:43] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:43] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:55:57] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:57] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:57] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:55:57] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:55:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:59] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:55:59] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:55:59] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:00] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:00] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:00] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:01] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:02] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:02] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:02] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:05] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:05] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:05] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:07] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:07] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:07] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:10] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:11] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:11] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:13] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:13] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:15] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:15] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:21] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:21] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:21] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:27] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:27] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:28] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:28] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:28] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:30] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:30] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:30] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:32] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:32] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:33] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:33] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:40] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:40] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:40] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:41] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:41] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:41] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:42] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:42] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:42] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:50] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:51] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:51] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:56:51] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:56:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:52] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:52] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:52] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:56:53] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:56:53] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:56:53] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:57:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:57:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:57:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:25] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:57:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:57:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:57:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:57:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:58:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:58:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:58:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:25] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:58:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:58:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:58:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:58:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:59:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 18:59:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 18:59:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:25] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:59:25] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 18:59:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 18:59:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 18:59:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 19:00:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 19:00:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 19:00:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 19:00:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 19:00:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:00:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 19:00:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 19:01:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:24] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:24] local.INFO: Path recibido: misrecorridos  
+[2025-12-02 19:01:24] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/misrecorridos  
+[2025-12-02 19:01:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:25] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:26] local.INFO: Path recibido: vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 19:01:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos/019a6f0c-31f4-7122-98f6-84fe12895e4b  
+[2025-12-02 19:01:26] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-02 19:01:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
+[2025-12-02 19:01:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
