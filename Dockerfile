@@ -12,12 +12,6 @@ RUN apt-get update && apt-get install -y \
     zip \
     && docker-php-ext-install pdo pdo_mysql mbstring zip exif pcntl
 
-# Habilita mod_rewrite para Laravel
-RUN a2enmod rewrite
-
-# Cambia el DocumentRoot de Apache a la carpeta public/
-RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
-
 # Copia los archivos del proyecto al contenedor
 COPY . /var/www/html
 
@@ -32,6 +26,12 @@ RUN composer install --optimize-autoloader --no-dev
 
 # Da permisos a las carpetas necesarias
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+
+# Habilita mod_rewrite para Laravel
+RUN a2enmod rewrite
+
+# 🔥 Mueve esta línea al final para que no se sobrescriba
+RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
 
 # Expone el puerto 80
 EXPOSE 80
