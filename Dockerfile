@@ -24,6 +24,8 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Instala dependencias de Laravel
 RUN composer install --optimize-autoloader --no-dev
 
+RUN composer dump-autoload
+
 # 🔧 Crea carpetas necesarias para Laravel (por si Git no las subió)
 RUN mkdir -p /var/www/html/storage/framework/{sessions,views,cache} \
     && mkdir -p /var/www/html/storage/logs
