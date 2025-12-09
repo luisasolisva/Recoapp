@@ -1246,3 +1246,46 @@
 [2025-12-02 19:01:26] local.INFO: Path recibido: recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
 [2025-12-02 19:01:26] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019ae174-4be0-707b-a182-04688679c007/posiciones  
 [2025-12-04 14:32:32] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:36:08] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:11] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:12] local.INFO: Path recibido: vehiculos  
+[2025-12-04 19:39:12] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-04 19:39:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:14] local.INFO: Path recibido: vehiculos  
+[2025-12-04 19:39:14] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-04 19:39:14] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:15] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:39:15] local.INFO: Path recibido: rutas  
+[2025-12-04 19:39:15] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/rutas  
+[2025-12-04 19:43:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:04] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:04] local.INFO: Path recibido: vehiculos  
+[2025-12-04 19:43:04] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/vehiculos  
+[2025-12-04 19:43:05] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:05] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:05] local.INFO: Path recibido: rutas  
+[2025-12-04 19:43:05] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/rutas  
+[2025-12-04 19:43:12] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:13] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:13] local.INFO: Path recibido: recorridos/iniciar  
+[2025-12-04 19:43:13] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/iniciar  
+[2025-12-04 19:43:18] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:18] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:18] local.INFO: Path recibido: recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:18] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:31] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:31] local.INFO: Path recibido: recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/finalizar  
+[2025-12-04 19:43:31] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/finalizar  
+[2025-12-04 19:43:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:33] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:33] local.INFO: Path recibido: recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:33] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:34] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones | Status: 403 | Body: {"error":"El recorrido debe estar \"En Curso\" para a\u00f1adir posiciones."}  
+[2025-12-04 19:43:34] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:35] local.WARNING: GLOBAL_PERFIL_ID no está configurado, el login ciudadano fallará.  
+[2025-12-04 19:43:35] local.INFO: Path recibido: recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:35] local.INFO: URL final: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones  
+[2025-12-04 19:43:35] local.ERROR: Error en proxy a Lucio API. URL: https://apirecoleccion.gonzaloandreslucio.com/api/recorridos/019aebf6-871f-7354-8709-66cc5dae0ab5/posiciones | Status: 403 | Body: {"error":"El recorrido debe estar \"En Curso\" para a\u00f1adir posiciones."}  
