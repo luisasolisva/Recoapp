@@ -19,7 +19,8 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:8100'],
+    'allowed_origins' => ['https://recoapp.onrender.com',
+    'https://apirecoleccion.gonzaloandreslucio.com',],
 
     'allowed_origins_patterns' => [],
 
